@@ -1,0 +1,109 @@
+*{
+				margin: 0;
+				padding: 0;
+				font-family: "微软雅黑";
+				box-sizing: border-box;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+			}
+		/*主页*/	
+			#page1{
+				width: 100%;
+				height: 100%;
+				background: url(../img/bg1.jpg);
+				background-size: 100% 100%;
+				position: absolute;
+				/*display: none;*/
+			}
+			.btn{
+				width: 70%;
+				height:40%;
+				/*background: white;*/
+				border-radius: 80px;
+				margin: 0 auto;
+				margin-top: 50%;
+			}
+			.input1{
+				width: 70%;
+				height: 8%;
+				margin: 0 auto;
+				margin-top: 15%;
+			}
+			#usename{
+				width: 100%;
+				height: 80%;
+				margin-top:3% ;
+				font-size: 20px;
+				text-align: center;
+				outline: none;
+				border: none;
+				border-radius: 45px;
+				background: rgba(255,255,255,0.3);
+				color: red;
+			}
+			.input1:before{
+				content: "请输入被惩罚人的名字";
+				font-size: 15px;
+				position: absolute;
+				width: 70%;
+				height: 5%;
+				text-align: center;
+				margin-top: -4%;
+				color: #ccc;
+			/*	background: gold;*/
+			}
+		/*Loading...*/	
+			#loading{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				text-align: center;
+				display: none;
+				/*background: #ccc;*/
+			}
+			#loading img{
+				margin-top:50% ;
+				width: 65%;
+				height: 35%;
+			}
+		/*第三个页面*/	
+		.page3{
+			width: 100%;
+			height: 100%;
+			background:/* #999*/#000000;
+			color: #fff;
+			display: none;
+		}
+		.page3 h3{
+			font-size: 25px;
+			margin-left: 5%;
+		}
+		.page3 p{
+			margin-top:5% ;
+			margin-left: 5%;
+			font-size: 20px;
+			color: /*red*/#999;
+		}	
+		.page3 #timu{
+			width: 100%;
+			
+		}
+		.page3 #timu img{
+			margin-top:70px ;
+			display: block;
+			width: 100%;
+		}
+		.page3 .fan{
+			background:#ccc;
+			width: 70px;
+			height: 30px;
+			line-height: 30px;
+			color: #666;
+			margin-top:5% ;
+			margin-left: 40%;
+			text-align: center;
+			font-size: 18px;
+			border-radius: 5px;
+		}
